@@ -3,7 +3,7 @@
 
 Automate the CI/CD pipeline for a Flask application and deploy it on an Amazon EKS (Elastic Kubernetes Service) cluster using Argo CD. This project uses Jenkins, GitLab, Terraform, and AWS services to create a fully automated pipeline for continuous integration and continuous deployment.
 
-![Architecture Diagram](./path-to-your-image.png)  
+![Architecture Diagram](./project.png)  
 *Architecture overview of CI/CD pipeline components within Development and Production VPCs.*
 
 ---
@@ -115,5 +115,4 @@ For further details, refer to the architecture diagram at the top of this README
 
 --- 
 
-> **Note**: Replace `"path-to-your-image.png"` with the actual path to the image in your repository once you add it.
 
