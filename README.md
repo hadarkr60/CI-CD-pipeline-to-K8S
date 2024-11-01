@@ -71,11 +71,7 @@ After the infrastructure is provisioned with Terraform, proceed with setting up 
 3. ArgoCD will watch for changes in Git and automatically apply updates to the EKS cluster.
 
 ### Ingress Setup
-Ingress resources must be configured to direct traffic to the Flask application’s service in Kubernetes:
-
-1. Deploy the AWS Load Balancer Controller in the EKS cluster.
-2. Create an Ingress resource for the Flask application.
-3. The Load Balancer Controller will provision an ALB based on the Ingress resource, exposing the application to the internet.
+Ingress must be applied to direct traffic to the application's serviec in k8s
 
 ---
 
